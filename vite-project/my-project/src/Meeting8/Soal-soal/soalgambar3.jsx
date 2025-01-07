@@ -23,13 +23,13 @@ function Calculator() {
   return (
     <div className="bg-gray-200 p-4 ">
       <h1 className="text-[30px] font-bold text-blue-500 text-center">
-        Calculator
+        Calculators
       </h1>
       <input
         type="number"
         value={num1}
         onChange={(e) => setNum1(e.target.value)}
-        className="w-[300px] ml-[100px] mt-[20px] mr-[20px]"
+        className="w-[300px] ml-[100px] mt-[20px] mr-[20px] text-red-500"
       />
       <input
         type="number"
