@@ -10,10 +10,11 @@ import Calculator from './Meeting8/Soal-soal/soalgambar3.jsx'
 import SimpleNameList from "./Meeting9/coba/cobaArray.jsx";
 import UpdateStateWithMap from "./Meeting9/coba/cobaMap.jsx";
 import Produk from "./Meeting9/praktek/soal1.jsx";
+import TextLogger  from './Meeting10/soal3'
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Calculator />
-    <Produk />
-  </StrictMode>
-);
+    <TextLogger />
+  </StrictMode>,
+)
