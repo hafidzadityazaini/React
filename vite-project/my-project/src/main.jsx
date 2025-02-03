@@ -1,10 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./input.css";
-import App from "./Meeting16/soalgambar1";
+import Plate from "./Meeting17/soal-soal/soalgambar2";
+import Applikasi from "./Meeting17/soal-soal/soalgambar1";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App/>
+    <Applikasi />
   </StrictMode>
 );
